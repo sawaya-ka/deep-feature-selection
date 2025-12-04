@@ -1,0 +1,75 @@
+[LAUNCH] seed=1 -> GPU0
+[LAUNCH] seed=2 -> GPU1
+[LAUNCH] seed=3 -> GPU2
+[LAUNCH] seed=4 -> GPU3
+[LAUNCH] seed=5 -> GPU0
+[LAUNCH] seed=6 -> GPU1
+[LAUNCH] seed=7 -> GPU2
+[LAUNCH] seed=8 -> GPU3
+[LAUNCH] seed=9 -> GPU0
+[LAUNCH] seed=10 -> GPU1
+[LAUNCH] seed=11 -> GPU2
+[LAUNCH] seed=12 -> GPU3
+[LAUNCH] seed=13 -> GPU0
+[LAUNCH] seed=14 -> GPU1
+[LAUNCH] seed=15 -> GPU2
+[LAUNCH] seed=16 -> GPU3
+[LAUNCH] seed=17 -> GPU0
+[LAUNCH] seed=18 -> GPU1
+[LAUNCH] seed=19 -> GPU2
+[LAUNCH] seed=20 -> GPU3
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/geshu/feature_selection/p_runner_clsf.py", line 235, in <module>
+    if __name__=="__main__": main()
+  File "/home/geshu/feature_selection/p_runner_clsf.py", line 233, in main
+    launch(seeds,args.m,args.n,args.T,args.outdir,args.ngpu,K=args.K)
+  File "/home/geshu/feature_selection/p_runner_clsf.py", line 178, in launch
+    for p in procs: p.wait()
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1222, in wait
+    self._wait(timeout=sigint_timeout)
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1953, in _wait
+    time.sleep(delay)
+KeyboardInterrupt
+[LAUNCH] seed=1 -> GPU0
+[LAUNCH] seed=2 -> GPU1
+[LAUNCH] seed=3 -> GPU2
+[LAUNCH] seed=4 -> GPU3
+Traceback (most recent call last):
+  File "/home/geshu/feature_selection/p_runner_clsf.py", line 235, in <module>
+    if __name__=="__main__": main()
+  File "/home/geshu/feature_selection/p_runner_clsf.py", line 233, in main
+    launch(seeds,args.m,args.n,args.T,args.outdir,args.ngpu,K=args.K)
+  File "/home/geshu/feature_selection/p_runner_clsf.py", line 177, in launch
+    time.sleep(0.2)
+KeyboardInterrupt
+{"ok":true,"result":{"message_id":21,"from":{"id":8201295268,"is_bot":true,"first_name":"Job_done","username":"sawayaka_bot"},"chat":{"id":7635883487,"first_name":"K","last_name":"Ak","type":"private"},"date":1759948439,"text":"All seeds finished.\nSeeds: 1..20\nElapsed: 1h 01m 04s\nOut: res/iter_parallel_clsf on instance-sawaya-parallel"}}[LAUNCH] seed=1 -> GPU0
+[LAUNCH] seed=2 -> GPU1
+[LAUNCH] seed=3 -> GPU2
+[LAUNCH] seed=4 -> GPU3
+[LAUNCH] seed=5 -> GPU0
+[LAUNCH] seed=6 -> GPU1
+[LAUNCH] seed=7 -> GPU2
+[LAUNCH] seed=8 -> GPU3
+[LAUNCH] seed=9 -> GPU0
+[LAUNCH] seed=10 -> GPU1
+[LAUNCH] seed=11 -> GPU2
+[LAUNCH] seed=12 -> GPU3
+[LAUNCH] seed=13 -> GPU0
+[LAUNCH] seed=14 -> GPU1
+[LAUNCH] seed=15 -> GPU2
+[LAUNCH] seed=16 -> GPU3
+[LAUNCH] seed=17 -> GPU0
+[LAUNCH] seed=18 -> GPU1
+[LAUNCH] seed=19 -> GPU2
+[LAUNCH] seed=20 -> GPU3
