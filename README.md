@@ -1,8 +1,8 @@
-# Experimental Code for Sawaya (2025).
+# Experimental Code for Sawaya (2026).
 
 This repository provides the experimental code to reproduce all figures and tables reported in the paper:
 
-**Kazuma Sawaya, "Provable FDR Control for Deep Feature Selection".**
+**Kazuma Sawaya (2026), "Provable FDR Control for Deep Feature Selection: Deep MLPs and Beyond".** In *Proceedings of 29th International Conference on Artificial Intelligence and Statistics (AISTATS2026)*.
 
 It contains implementations of the **proposed method** as well as **baseline methods** such as Neural Gaussian Mirror (NGM) and DeepLINK.
 
