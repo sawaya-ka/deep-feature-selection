@@ -23,6 +23,7 @@ Contains all experiment scripts related to the **proposed feature selection meth
 | `parallel_runner_tr.py` | Same as above but dedicated to the **Transformer** model experiments. |
 | `p_runner_origin_elpt.py` | Generates the **Appendix Figure 5** results (elliptical design). |
 | `p_runner_clsf.py` | Generates the **Appendix Figure 10** results (multi-class classification). |
+| `parallel_runner_mds_queue.py` | Generates the **Appendix Figure 14** results (multiple data-splitting). |
 
 ---
 
